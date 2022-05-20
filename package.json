@@ -1,0 +1,45 @@
+{
+  "name": "03-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --whatchAll",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaNaM/202205-W02CH05_Marina-Navarrete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarinaNaM/202205-W02CH05_Marina-Navarrete/issues"
+  },
+  "homepage": "https://github.com/MarinaNaM/202205-W02CH05_Marina-Navarrete#readme"
+}
