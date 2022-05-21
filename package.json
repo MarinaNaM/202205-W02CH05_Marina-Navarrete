@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint",
-    "test:watch": "jest --whatchAll",
+    "test:watch": "jest --watchAll --coverage",
     "prepare": "husky install"
   },
   "keywords": [],
