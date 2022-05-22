@@ -7,14 +7,6 @@ let hive = [
   [1, 0, 0, 1, 1],
 ];
 
-// let hive2 = [
-//   [0, 0, 1, 1, 1],
-//   [1, 0, 0, 0, 1],
-//   [1, 0, 1, 0, 1],
-//   [1, 1, 0, 0, 0],
-//   [0, 0, 1, 1, 1],
-// ];
-
 describe('Given countNeighbor function', () => {
   describe('When recieve hive[0][0]', () => {
     let newArray = countNeighbor(hive);
